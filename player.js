@@ -1,3 +1,5 @@
+// Android player: pkg install sox
+
 const player = require('play-sound')();
 
 filename='./media/beep-07.mp3'

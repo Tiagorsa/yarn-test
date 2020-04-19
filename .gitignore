@@ -1,0 +1,50 @@
+# Local development
+.env
+.env.test
+*.dev
+# Editor
+.idea
+*.code-workspace
+# Virtual env folder
+.yarn-test
+# Node
+node_modules
+npm-debug.log
+build
+.DS_Store
+bower_components
+build/Release
+*.tsbuildinfo
+.npm
+*.tgz
+.cache
+.cache
+# vuepress build output
+.vuepress/dist
+# Serverless directories
+.serverless/
+# FuseBox cache
+.fusebox/
+# DynamoDB Local files
+.dynamodb/
+# TernJS port file
+.tern-port
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+# Diagnostic reports (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+# Docker
+Dockerfile
+docker-compose.yml

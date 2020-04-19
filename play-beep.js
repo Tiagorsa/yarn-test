@@ -1,6 +1,13 @@
-var play = require('play').Play();
+  // If you want raw access to the player (via stdin)
 
-filename='./media/beep-07.mp3'
+  // require and stuff happened here
+  var play = require('play');
+  var player = false;
 
-play.sound(filename);
+  // Force it to use mplayer (can be anything else)
+  play.usePlayer('mplayer');
+  play.on('play', function () {
+    player = play.player;
+  });
 
+  play.sound('./media/beep-07.mp3');
